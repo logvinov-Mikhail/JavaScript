@@ -19,7 +19,7 @@
         console.log(`]`);
     }
     try {
-        logArray(12);
+        logArray([12]);
     } catch (e) { // отлавливаем исключение
         console.log(e);
     }
@@ -193,3 +193,6 @@ const employees = [
         return acc + emploee.salary;
     }, 0);
     console.log(testeduce);
+
+
+    

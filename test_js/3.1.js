@@ -70,7 +70,7 @@
 // УНИЧТОЖЕНИЕ
     // Попробуем создать в tick переменную и сразу же увеличить её на 1:
         function tick() {
-            let start = 1;
+            let start = 1;  
             console.log( start++ );
         }
         tick(); // 1

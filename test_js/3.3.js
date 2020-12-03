@@ -77,15 +77,18 @@
         // Выведет 29 через 1с.
         setTimeout(sum, 1000, 10, 19);
 */
-        class Person {
-            constructor(firstName, lastName, phone) {
-            this.firstName = firstName;
-            this.lastName = lastName;
-            this.phone = phone;
-            }
-            }
-            const phonebook = [
-            new Person('Владислав', 'Иванов', '+74993412233'),
-            new Person('Леонида', 'Петрова', '+74993412232'),
-            ];
-            console.log(phonebook);
+
+class Male {
+    constructor(name, lastName) {
+    this.name = name;
+    this.lastName = lastName;
+    this.gender = 'male';
+    this.type = 'human';
+    }
+    }
+    const oleg = new Male('Олег', 'Иванов');
+    const ivan = new Male('Иван', 'Широков');
+    const nikita = new Male('Никита', 'Огурцов');
+
+    console.log(oleg);
+    

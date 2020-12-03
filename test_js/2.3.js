@@ -311,9 +311,9 @@ console.log(typeof callbackForm.onSend); // function
         }
         class AdsVideoItem extends VideoItem {
             play() {
-            //alert('Исландский морж улетел в космос! Кликай сюда!');
-            // Вызываем play у VideoItem
-            super.play();
+                alert('Исландский морж улетел в космос! Кликай сюда!');
+                // Вызываем play у VideoItem
+                super.play();
             }
         }
         const video = new VideoItem('Как разбогатеть на чтении!');
