@@ -77,8 +77,39 @@ enough(10, 6, 5);
 
 // АЛЬТЕРНАТИВНЫЙ КОД - Вообще гениально и просто!
 function enough(cap, on, wait) {
-    return Math.max(wait + on - cap, 0);
+    return console.log(Math.max(wait + on - cap, 0));
   }
 
 // Задача №5 https://learn.javascript.ru/ifelse
 console.log('--- №5 ---')
+
+let officialName_JS = prompt('Какое «официальное» название JavaScript?', 'ответ');
+
+if(officialName_JS == ECMAScript) {
+    alert('Верно!');
+} else{
+    alert('Не знаете?\n ECMAScript!')
+}
+
+// Задача №6
+
+let result = (a + b < 4) ? 'Мало' : 'Много';
+
+let message = (login == 'Сотрудник') ? 'Привет' :
+  (login == 'Директор') ? 'Здравствуйте' :
+  (login == '') ? 'Нет логина' :
+  '';
+
+//   Напишите условие if для проверки, что переменная age находится в диапазоне между 14 и 90 включительно.
+
+//   «Включительно» означает, что значение переменной age может быть равно 14 или 90.
+
+// Задача №7
+
+let age = 50; 
+
+if(ege >= 14 && age <= 90) {
+    console.log('Число в нужном диапазоне!')
+} else {
+    console.log('Число не соответствует заданию!')
+}
