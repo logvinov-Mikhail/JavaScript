@@ -78,17 +78,3 @@
         setTimeout(sum, 1000, 10, 19);
 */
 
-class Male {
-    constructor(name, lastName) {
-    this.name = name;
-    this.lastName = lastName;
-    this.gender = 'male';
-    this.type = 'human';
-    }
-    }
-    const oleg = new Male('Олег', 'Иванов');
-    const ivan = new Male('Иван', 'Широков');
-    const nikita = new Male('Никита', 'Огурцов');
-
-    console.log(oleg);
-    

@@ -19,9 +19,9 @@
         console.log(`]`);
     }
     try {
-        logArray([12]);
-    } catch (e) { // отлавливаем исключение
-        console.log(e);
+        logArray(12);
+    } catch (a) { // отлавливаем исключение
+        console.log(a);
     }
     // Error: Аргумент не является массивом
 
